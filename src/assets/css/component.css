@@ -1,0 +1,127 @@
+.subheader {
+    padding: 15px;
+    width: 100%;
+    background: #fcfcfc;
+    color: #414042;
+    box-shadow: 0px 3px 9px 0px #cccccc;
+}
+.subheader h5 {
+    width: 50%;
+}
+
+.page-wrap {
+    width: 100%;
+    padding: 60px 0 0 220px;
+}
+.loader {
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: center;
+    color: #afafaf;
+}
+
+/* == Badge == */
+.badge {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+.badge i {
+    padding-right: 5px;
+}
+
+/* == Breadcrumb == */
+.breadcrumb {
+    padding: 5px 0 0 0;
+    margin: 0;
+    background: transparent;
+    float: right;
+}
+.breadcrumb-item {
+    color: #414042;
+}
+
+/* == Button == */
+.btn {
+    padding: 8px 20px;
+    text-align: center;
+    transition: ease all 0.4s;
+}
+.btn:hover {
+    box-shadow: 0 3px 9px 0 #cccccc;
+}
+.btn-rounded {
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+.btn i {
+    padding-right: 5px;
+}
+.btn-xs {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.btn-lg {
+    font-size: 20px;
+    padding: 12px 40px;
+}
+
+/* == Card == */
+.card {
+    width: 100%;
+    margin: 15px 0 15px 0;
+    border-radius: 3px;
+    background: #ffffff;
+    box-shadow: 0 3px 9px 0 #cccccc;
+}
+.card-heading {
+    padding: 15px;
+    border-bottom: #dddddd 1px solid;
+}
+.card-body {
+    padding: 15px;
+}
+
+/* == Form == */
+.form-control {
+    transition: ease all 0.4s;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: #415382 1px solid;
+}
+.input-group-text {
+    background: transparent;
+}
+.input-rounded {
+    border: #dddddd 1px solid;
+    border-radius: 50px;
+}
+.input-rounded:focus {
+    border: #415382 1px solid;
+}
+.input-rounded input {
+    padding-left: 20px;
+    border: none;
+    border-radius: 50px;
+}
+.input-rounded i {
+    padding: 10px 5px 10px 20px;
+    display: flex;
+}
+.input-rounded input:focus {
+    border: none;
+}
+/* == Modal == */
+
+/* == Tab == */
+
+/* == Widget == */
+.widget {
+    width: 100%;
+    padding: 15px 20px;
+}
+

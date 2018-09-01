@@ -1,0 +1,50 @@
+@import "color.css";
+@import "font.css";
+
+.aside {
+    width: 220px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background: #FDFDFD;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 220px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+}
+.menu {
+    width: 220px;
+    height: 100%;
+    box-shadow: 2px 7px 10px 0 #dddddd;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li a {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+    color: #222222;
+    transition: ease all 0.5s;
+}
+.menu li a:hover {
+    text-decoration: none;
+    background: #f1f2f2;
+}
+
+.submenu {
+    border-bottom: #dddddd 1px solid;
+    /*box-shadow: inset 0 -3px 7px #dddddd;*/
+}
+.submenu li a {
+    padding: 7px;
+}
+.submenu li a:hover {
+    color: #ff5e62;
+    background: transparent;
+}

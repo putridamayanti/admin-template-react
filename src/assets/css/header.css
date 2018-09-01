@@ -1,0 +1,26 @@
+@import "color.css";
+@import "font.css";
+:root {
+    --lightgrey: #EBEBEB;
+    --dark: #030303;
+    --blue: #415382;
+    --peach: #ff9966;
+    --pink: #ff5e62;
+}
+
+.header {
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    z-index: 99;
+    background: linear-gradient(-90deg, var(--peach), var(--pink));
+    color: white;
+    box-shadow: 0px 3px 9px 0px #cccccc;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #FDFDFD;
+    text-align: center;
+    text-decoration: none;
+}

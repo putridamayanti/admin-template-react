@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}

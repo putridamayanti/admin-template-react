@@ -1,0 +1,33 @@
+:root {
+  --lightgrey: #EBEBEB;
+  --dark: #030303;
+  --blue: #415382;
+  --peach: #ff9966;
+  --pink: #ff5e62;
+  --violet: #B66E6F;
+  --red: #dc3541;
+}
+
+.bg-pink { background: var(--pink); color: #FDFDFD }
+.bg-peach { background: var(--peach); color: #FDFDFD }
+.bg-blue { background: var(--blue); color: #FDFDFD }
+.bg-violet { background: var(--violet); color: #FDFDFD }
+.bg-white { background: var(--white); color: #030303 }
+.bg-dark  { background: var(--dark); color: #FDFDFD }
+.bg-red   { background: var(--red); color: #FDFDFD }
+
+.br { background: transparent }
+.br-pink { border: var(--pink) 2px solid; color: var(--pink) }
+.br-pink:hover { background: var(--pink); color: #FDFDFD }
+.br-peach { border: var(--peach) 2px solid; color: var(--peach) }
+.br-peach:hover { background: var(--peach); color: #FDFDFD }
+.br-blue { border: var(--blue) 2px solid; color: var(--blue) }
+.br-blue:hover { background: var(--blue); color: #FDFDFD }
+.br-violet { border: var(--violet) 2px solid; color: var(--violet) }
+.br-violet:hover { background: var(--violet); color: #FDFDFD }
+.br-white { border: var(--white) 2px solid; color: var(--white) }
+.br-white:hover { background: var(--white); color: #FDFDFD }
+.br-dark  { border: var(--dark) 2px solid; color: var(--dark) }
+.br-dark:hover { background: var(--dark); color: #FDFDFD }
+.br-red   { border: var(--red) 2px solid; color: var(--red) }
+.br-red:hover { background: var(--red); color: #FDFDFD }

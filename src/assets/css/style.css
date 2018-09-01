@@ -1,0 +1,10 @@
+@import "header.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+p, h1, h2, h3, h4, h5 {
+    margin: 5px 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
